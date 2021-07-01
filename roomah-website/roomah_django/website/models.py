@@ -17,6 +17,8 @@ class House(models.Model):
     thumbnail = models.ImageField(upload_to='uploads/', blank=True, null=True)
     date_added = models.DateTimeField(auto_now_add=True)
 
+    # test
+
     class Meta:
         ordering = ('-date_added',)
     
